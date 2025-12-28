@@ -1,0 +1,50 @@
+############################
+# Maven / Spring Boot
+############################
+target/
+!.mvn/wrapper/maven-wrapper.jar
+**/target/
+
+############################
+# IntelliJ IDEA
+############################
+.idea/
+*.iml
+*.iws
+*.ipr
+
+############################
+# OS Files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Log files
+############################
+*.log
+
+############################
+# Environment Files
+############################
+# Common dotenv patterns
+.env
+.env.*
+*.env
+*.env.*
+.envrc
+.direnv/
+
+# Env directories
+env/
+**/env/
+
+# Properties-style env files
+env.properties
+**/env.properties
+
+# Exception: keep example/template env files
+!.env.example
+!.env*.example
+!.env.template
+!.env.sample
